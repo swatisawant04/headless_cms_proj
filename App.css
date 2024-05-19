@@ -1,0 +1,78 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #f0f0f0; /* light gray background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333; /* dark gray text */
+}
+
+input, select, button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"], select {
+  width: 200px;
+}
+
+button {
+  background-color: #4CAF50; /* green button */
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+span {
+  margin-right: 20px;
+}
+
+button.delete-button, button.update-button {
+  background-color: #ff9800; /* orange button */
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button.delete-button:hover, button.update-button:hover {
+  background-color: #ff69b4; /* pink color on hover */
+}
+
+.attribute-list, .record-list {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
